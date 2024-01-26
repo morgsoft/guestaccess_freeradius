@@ -1,0 +1,35 @@
+# Ignore the .env file
+.env
+
+# Ignore all the files in the .docker directory
+.docker/*
+
+# Ignore the docker-compose.override.yml file
+docker-compose.override.yml
+
+# Ignore the Docker Compose logs
+log/*
+
+# Ignore the local database data
+configs/mysql/master/data/*
+
+# Ignore the log examples
+examples/*
+
+# Ignore the log examples
+examples/*
+
+# Ignore certificates
+configs/radius/clients_backup.conf
+
+# Ignore certificates
+configs/radius/certs/*
+
+# Allow certificate readme, makefile, and config files
+!configs/radius/certs/README
+!configs/radius/certs/Makefile
+!configs/radius/certs/ca.cnf
+!configs/radius/certs/client.cnf
+!configs/radius/certs/server.cnf
+!configs/radius/certs/xpextensions
+
